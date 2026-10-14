@@ -1,4 +1,4 @@
-# CppBuddy 💻
+# CppBuddy [C++ Chatbot]
 
 A C++ tutor chatbot built by fine-tuning **Qwen2.5-Coder-7B-Instruct** with **QLoRA**. It answers C++ concept questions and coding problems with a short explanation, a compilable code example, and a practical tip, and politely redirects questions that aren't about C++.
 
@@ -6,7 +6,8 @@ This project is an end-to-end fine-tuning pipeline: curating and validating trai
 
 > Adapter on the Hub: [`mohitsharma9761/my-cpp-chatbot`](https://huggingface.co/mohitsharma9761/my-cpp-chatbot)
 
-<!-- Add a screenshot or GIF of the chat UI here -->
+<img width="1912" height="1038" alt="Screenshot 2026-10-14 124607" src="https://github.com/user-attachments/assets/0ad96e06-32ce-43d5-a572-07dbdf96604d" />
+
 
 ## Why this project
 
