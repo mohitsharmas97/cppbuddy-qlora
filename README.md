@@ -72,14 +72,19 @@ This is a syntax/type check, not a correctness check, and the sample size is sma
 ## Project structure
 
 ```
-.
+my-cpp-chatbot/
 ├── notebooks/
-│   ├── finetune.ipynb        # data validation + QLoRA training + evaluation
-│   ├── app.ipynb             # FastAPI chat app + ngrok tunnel
-│   └── test.ipynb            # load the pushed adapter and test it standalone
+│   ├── my_cpp_chatbot_finetune_v2.ipynb  # Data preparation, QLoRA fine-tuning
+│   ├── my_cpp_chatbot_app_(1).ipynb      # FastAPI chat app + ngrok tunnel
+│
 ├── data/
-│   └── training_examples.jsonl
-└── README.md
+│   ├── cppbuddy_complete_training_dataset.jsonl  # Main training dataset
+│   ├── cppbuddy_extra_clean.jsonl                # Additional cleaned examples
+│   └── cppbuddy_fixes.jsonl                      # Corrected training examples
+│
+├── README.md                               # Project overview and setup
+└
+
 ```
 
 ## Running it yourself
